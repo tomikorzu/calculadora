@@ -7,7 +7,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="global-container">
+        <div class="calculadora">
+            <h2 class="h2-calculadora">Calculadora</h2>
+            <div class="input-container">
+                <input type="number" class="input-calculadora" id="input1" placeholder="operador 1">
+                <input type="text" class="input-calculadora" id="input2" placeholder="+, -, *, /" >
+                <input type="number" class="input-calculadora" id="input3" placeholder="operador 3">
+                <button class="submit-calculadora" id="calc">Calcular</button>
+                <input type="text" placeholder="Aca los resultados" readonly class="results" id="results">
+                <button class="reset-calculadora" id="reset">Borrar</button>
+            </div>
+        </div>
     <script src="./main.js"></script>
 </body>
 </html>
