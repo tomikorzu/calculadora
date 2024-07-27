@@ -33,3 +33,13 @@ function calcular() {
 
     results.value = `El resultado es: ${resultado}`;
 }
+
+function reset() {
+    op1.value = '';
+    op2.value = '';
+    op3.value = '';
+    results.value = '';
+}
+
+btnCalc.addEventListener('click', calcular);
+btnReset.addEventListener('click', reset);
